@@ -1,12 +1,3 @@
-let j1 = {
-    "nom" : "Kodjo",
-    "notes" : [12, 8, 15, 10, 11]
-}
-
-let j2 = {
-    "nom" : "Awa",
-    "notes" : [14, 14, 9, 6, 13]
-}
 
 function winner(player1, player2){
     let point1 = 0
@@ -43,5 +34,3 @@ function winner(player1, player2){
         console.log("Les joueurs n'ont pas le même nombre de points.")
     }
 }
-
-winner(j1, j2)
